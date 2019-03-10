@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc0172a-4770-46c4-97bb-e8f3eb46ab85" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/container/Forms/Forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Forms/Forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/SonFather/SonFather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SonFather/SonFather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/StatePromote/StatePromote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,22 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Forms.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/container/Forms/Forms.js">
+      <file leaf-file-name="StatePromote.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="1245">
+              <caret line="83" column="65" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>selectChange</find>
       <find>selectValue</find>
       <find>checkbox</find>
+      <find>textareaChange</find>
+      <find>toFahrenheit</find>
+      <find>tryConvert</find>
+      <find>Bilo</find>
+      <find>scaleName</find>
+      <find>handleCelsiusChange</find>
+      <find>handleFahrenheitChange</find>
+      <find>TemperatureInput</find>
+      <find>onTemperatureChange</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -44,6 +61,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/SonFather/SonFather.js" />
         <option value="$PROJECT_DIR$/src/container/Forms/Forms.js" />
+        <option value="$PROJECT_DIR$/src/container/StatePro/StatePro.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/container/StatePromote/StatePromote.js" />
       </list>
     </option>
   </component>
@@ -98,6 +118,26 @@
               <item name="container" type="462c0819:PsiDirectoryNode" />
               <item name="Forms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="StatePromote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="States" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,12 +176,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552184246544</updated>
-      <workItem from="1552184249128" duration="5744000" />
+      <workItem from="1552184249128" duration="13831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5744000" />
+    <option name="totallyTimeSpent" value="13831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -191,10 +231,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/StatePro/StatePro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/container/Forms/Forms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/States/States.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="65" />
         </state>
       </provider>
     </entry>

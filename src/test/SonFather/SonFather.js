@@ -14,6 +14,7 @@ class SonFather extends Component {
         return (
             <div>
                 <Input father='父组件传下来的值' fatherProps={ this.father.bind(this) }/>
+                
             </div>
         )
     }

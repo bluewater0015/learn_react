@@ -13,9 +13,11 @@ import Props from './../container/Props/Props';
 import State from './../container/States/States';
 import DealEvent from './../container/DealEvent/DealEvent';
 import Render from './../container/Render/Render';
-import Apply from './../test/Apply/Apply';
 import Lists from './../container/Lists/Lists';
 import Forms from './../container/Forms/Forms';
+
+import Apply from './../test/Apply/Apply';
+import SonFather from './../test/SonFather/SonFather';
 
 class RouterMap extends Component {
     render() {
@@ -34,6 +36,7 @@ class RouterMap extends Component {
                         <li><Link to='/apply'>Apply</Link></li>
                         <li><Link to='/lists'>Lists</Link></li>
                         <li><Link to='/forms'>Forms</Link></li>
+                        <li><Link to='/sonFather'>SonFather</Link></li>
                     </ul>
                     <div>
                         <Route exact path='/' component={ Home } />
@@ -47,6 +50,7 @@ class RouterMap extends Component {
                         <Route path='/apply' component={ Apply }/>
                         <Route path='/lists' component={ Lists }/>
                         <Route path='/forms' component={ Forms }/>
+                        <Route path='/sonFather' component={ SonFather }/>
                     </div>
                 </div>
             </Router>

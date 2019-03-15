@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc0172a-4770-46c4-97bb-e8f3eb46ab85" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/container/StatePromote/StatePromote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/Composition/Composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MapArr/MapArr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
     </list>
@@ -18,12 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StatePromote.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
+      <file leaf-file-name="Composition.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/container/Composition/Composition.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" column="65" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="65" />
+            <state relative-caret-position="360">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapArr.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/MapArr/MapArr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/container/Element/Element.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1106" />
           </provider>
         </entry>
       </file>
@@ -50,6 +67,8 @@
       <find>handleFahrenheitChange</find>
       <find>TemperatureInput</find>
       <find>onTemperatureChange</find>
+      <find>gothrough</find>
+      <find>dealJson</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,8 +81,10 @@
         <option value="$PROJECT_DIR$/src/test/SonFather/SonFather.js" />
         <option value="$PROJECT_DIR$/src/container/Forms/Forms.js" />
         <option value="$PROJECT_DIR$/src/container/StatePro/StatePro.js" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/container/StatePromote/StatePromote.js" />
+        <option value="$PROJECT_DIR$/src/container/Composition/Composition.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/test/MapArr/MapArr.js" />
       </list>
     </option>
   </component>
@@ -116,27 +137,20 @@
               <item name="learn_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="Element" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="StatePromote" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="States" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="MapArr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,16 +190,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552184246544</updated>
-      <workItem from="1552184249128" duration="13831000" />
+      <workItem from="1552184249128" duration="23555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13831000" />
+    <option name="totallyTimeSpent" value="23555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -214,13 +227,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/SonFather/SonFather.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -248,23 +254,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/States/States.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/qq.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/Composition/Composition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="717">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/States/States.js">
+    <entry file="file://$PROJECT_DIR$/src/container/DealEvent/DealEvent.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/StatePromote/StatePromote.js">
+    <entry file="file://$PROJECT_DIR$/src/container/Lists/Lists.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="65" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="65" />
+        <state relative-caret-position="-693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/Element/Element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MapArr/MapArr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>

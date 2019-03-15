@@ -16,9 +16,13 @@ import Render from './../container/Render/Render';
 import Lists from './../container/Lists/Lists';
 import Forms from './../container/Forms/Forms';
 import StatePromote from '../container/StatePromote/StatePromote';
+import Composition from './../container/Composition/Composition';
+
 
 import Apply from './../test/Apply/Apply';
 import SonFather from './../test/SonFather/SonFather';
+import MapArr from './../test/MapArr/MapArr';
+
 
 class RouterMap extends Component {
     render() {
@@ -39,6 +43,9 @@ class RouterMap extends Component {
                         <li><Link to='/forms'>Forms</Link></li>
                         <li><Link to='/sonFather'>SonFather</Link></li>
                         <li><Link to='/statePromote'>StatePromote</Link></li>
+                        <li><Link to='/composition'>Composition</Link></li>
+                        <li><Link to='mapArr'>MapArr</Link></li>
+
                     </ul>
                     <div>
                         <Route exact path='/' component={ Home } />
@@ -54,6 +61,8 @@ class RouterMap extends Component {
                         <Route path='/forms' component={ Forms }/>
                         <Route path='/sonFather' component={ SonFather }/>
                         <Route path='/statePromote' component={ StatePromote }/>
+                        <Route path='/composition' component={ Composition }/>
+                        <Route path='/mapArr' component={ MapArr }/>
                     </div>
                 </div>
             </Router>

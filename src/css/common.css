@@ -1,0 +1,15 @@
+.app {
+    overflow: auto;
+}
+/*marigin*/
+.margin-bottom10 {
+    margin-bottom: 10px;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.background {
+    background: #f99;
+}

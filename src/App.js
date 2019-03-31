@@ -6,7 +6,7 @@ import RouterMap from "./router/router";
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className='app'>
                 <RouterMap />
             </div>
         );

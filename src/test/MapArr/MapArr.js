@@ -14,6 +14,19 @@ function dealJson(data) {
     return result;
 }
 
+//this.textInput.current.focus();
+Array.prototype.fakeMap = function(fn,context) {
+    let temp=[];
+
+    for( var i=0;i<this.length;i++ ) {
+        let result = fn.call(context,this[i],i,this);
+        temp.push(result);
+    }
+
+    console.log(temp);
+    return temp;
+}
+
 class MapArr extends Component {
     constructor(props) {
         super(props);
@@ -70,9 +83,88 @@ class MapArr extends Component {
        })
         console.log('eachArr',eachArr);
     }
+
+    map(arr) {
+        let res = arr.fakeMap((item,index)=>{
+            return item * 2;
+        });
+        console.log('res',res);
+        return res;
+    }
+
+    getUrlPar(url,id) {
+        let dealUrl = url.substring(1);
+        let sp = dealUrl.split('&');
+        let str;
+        for(let i=0;i < sp.length;i++) {
+            let deal = sp[i].split('=');
+            if(deal[0] === id) {
+                str = deal[1];
+            }
+        }
+        console.log(str);
+        return str;
+    }
+
+
+
+    mapObj(arr) {
+        console.log(1);
+        let arrs = [];
+        for(let i=0;i< arr.length;i++) {
+            if(arrs.indexOf(arr[i])===-1) {
+                console.log(arr[i]);
+                arrs.push(arr[i]);
+            }
+        }
+        //console.log(arrs);
+        //return arrs;
+    }
+
+    noRepeat(arr) {
+        var newArr = [];
+        for(var i=0,l = arr.length; i < l; i++) {
+            for(var j=i+1;j<l;j++) {
+                if(JSON.stringify(arr[i]) == JSON.stringify(arr[j])) j = ++i;
+            }
+            newArr.push(arr[i]);
+        }
+        return newArr;
+    }
+
+    uniqueList(array){
+        var r = [];
+        for(var i = 0;i < array.length; i++) {
+            for(var j = i + 1; j < array.length; j++)
+                //关键在这里
+                if (JSON.stringify(array[i]) == JSON.stringify(array[j])) j = ++i;
+            r.push(array[i]);
+        }
+        console.log('r',r);
+        //return r;
+    }
+    forMap(arr) {
+        for(var i=0;i<arr.length;i++) {
+            for(var j=0;j<arr.length-i-1;j++) {
+                var temp;
+                if(arr[j]>arr[j+1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
     render() {
         let arr = [[1,2,3],[3,4,4,5,5],[6,7,8,9,[11,12,[12,13,[14]]]],10];
         let eachArr = [1,3,5,7,9];
+        let url = '?id=3&image=awesome.jpg';
+        let arr1 = [2,3,4,5];
+        let obj = [{a:1},{b:2},{a:1}]
+        let newArr = [3,2,4,5,1,6,8];
+
         let json = [
             {
                 "name": "手机",
@@ -146,6 +238,13 @@ class MapArr extends Component {
                 {/*{ this.dealData(data) }*/}
                 { console.log('gothrough',this.gothrough(data)) }
                 { this.each(eachArr)}
+
+                { this.getUrlPar(url,'id') }
+                { this.map(arr1)}
+                {/*{ this.mapObj(obj) }*/}
+                { console.log(this.noRepeat(obj)) }
+                { this.uniqueList(obj) }
+                { console.log('123',this.forMap(newArr)) }
             </div>
         )
     }

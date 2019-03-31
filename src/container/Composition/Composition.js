@@ -1,5 +1,23 @@
 import React,{ Component } from 'react';
 
+function SubComponents(props) {
+    console.log('props',props);
+    return (
+        <div>
+            { props.children }
+        </div>
+    )
+}
+
+function SplitPane(props) {
+    return (
+        <div>
+            <div>{ props.left }</div>
+            <div>{ props.right }</div>
+        </div>
+    )
+}
+
 class Composition extends  Component{
     constructor(props) {
         super(props);
@@ -23,10 +41,17 @@ class Composition extends  Component{
     render() {
         return (
             <div>
-                Composition
                 {
                     console.log(this.getQueryVariable('id'))
                 }
+                <SubComponents>
+                    <h1>Welcome</h1>
+                    <h2>123</h2>
+                </SubComponents>
+                <SplitPane
+                    left={<div>123</div>}
+                    right = { <div>234</div>}
+                />
             </div>
         )
     }

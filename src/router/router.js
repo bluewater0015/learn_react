@@ -17,7 +17,8 @@ import Lists from './../container/Lists/Lists';
 import Forms from './../container/Forms/Forms';
 import StatePromote from '../container/StatePromote/StatePromote';
 import Composition from './../container/Composition/Composition';
-
+import Accessibility from './../container/Accessibility/Accessibility';
+import Hoc from './../container/Hoc/Hoc';
 
 import Apply from './../test/Apply/Apply';
 import SonFather from './../test/SonFather/SonFather';
@@ -44,8 +45,9 @@ class RouterMap extends Component {
                         <li><Link to='/sonFather'>SonFather</Link></li>
                         <li><Link to='/statePromote'>StatePromote</Link></li>
                         <li><Link to='/composition'>Composition</Link></li>
-                        <li><Link to='mapArr'>MapArr</Link></li>
-
+                        <li><Link to='/mapArr'>MapArr</Link></li>
+                        <li><Link to='/accessibility'>Accessibility</Link></li>
+                        <li><Link to='/hoc'>Hoc</Link></li>
                     </ul>
                     <div>
                         <Route exact path='/' component={ Home } />
@@ -63,6 +65,8 @@ class RouterMap extends Component {
                         <Route path='/statePromote' component={ StatePromote }/>
                         <Route path='/composition' component={ Composition }/>
                         <Route path='/mapArr' component={ MapArr }/>
+                        <Route path='/accessibility' component={ Accessibility }/>
+                        <Route path='/hoc' component={ Hoc }/>
                     </div>
                 </div>
             </Router>

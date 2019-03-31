@@ -36,6 +36,15 @@ function Map(props) {
     </div>
 }
 
+function MapKey(props) {
+    let newArr = props.arr.map(item=>{
+        return(
+           <h1 key="1">{item}</h1>
+        )
+    })
+    return newArr;
+}
+
 class Lists extends Component {
     constructor(props) {
         super(props);
@@ -81,65 +90,6 @@ class Lists extends Component {
     //     return tmp;
     // }
     //console.log(handle(4)(5)(6));
-    fn() {
-        if (!Array.prototype.map1) {
-            Array.prototype.map1 = function(callback, thisArg) {
-
-                var T, A, k;
-
-                if (this == null) {
-                    throw new TypeError(" this is null or not defined");
-                }
-
-                // 1. 将O赋值为调用map方法的数组.
-                var O = Object(this);
-                console.log('123',O);
-
-                // 2.将len赋值为数组O的长度.
-                var len = O.length >>> 0;
-
-                // 3.如果callback不是函数,则抛出TypeError异常.
-                if (Object.prototype.toString.call(callback) != "[object Function]") {
-                    throw new TypeError(callback + " is not a function");
-                }
-
-                // 4. 如果参数thisArg有值,则将T赋值为thisArg;否则T为undefined.
-                if (thisArg) {
-                    T = thisArg;
-                }
-
-                // 5. 创建新数组A,长度为原数组O长度len
-                A = new Array(len);
-
-                // 6. 将k赋值为0
-                k = 0;
-
-                // 7. 当 k < len 时,执行循环.
-                while(k < len) {
-
-                    var kValue, mappedValue;
-
-                    //遍历O,k为原数组索引
-                    if (k in O) {
-
-                        //kValue为索引k对应的值.
-                        kValue = O[ k ];
-
-                        // 执行callback,this指向T,参数有三个.分别是kValue:值,k:索引,O:原数组.
-                        mappedValue = callback.call(T, kValue, k, O);
-
-                        // 返回值添加到新数组A中.
-                        A[ k ] = mappedValue;
-                    }
-                    // k自增1
-                    k++;
-                }
-
-                // 8. 返回新数组A
-                return A;
-            };
-        }
-    }
 
     render(){
         var arr = [1,3,5,7,9];
@@ -156,7 +106,7 @@ class Lists extends Component {
                 { this.changeStrToObj(objStr2) }
                 {/*{ console.log(this.each(obj))}*/}
                 { this.keys(obj1) }
-                { this.fn() }
+                <MapKey arr={arr} />
             </div>
         )
     }

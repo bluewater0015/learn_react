@@ -1,5 +1,12 @@
-.app {
-    overflow: auto;
+
+/*flex*/
+.flex1 {
+    flex: 1;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*marigin*/
 .margin-bottom10 {
@@ -12,4 +19,8 @@
 
 .background {
     background: #f99;
+}
+/*padding*/
+.padding20 {
+    padding: 20px;
 }

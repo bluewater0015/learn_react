@@ -10,14 +10,14 @@ import React,{ Component } from 'react';
 //     })(i)
 // }
 
-// for(let i=0;i<5;i++) {
-//     (function(a1){
-//         console.log('a1',a1);
-//         // setTimeout(function(){
-//         //     console.log('a1',a1); // 0 1 2 3 4
-//         // },1000)
-//     })(i)
-// }
+for(let i=0;i<5;i++) {
+    // (function(a1){
+    //     console.log('a1',a1);
+    //     // setTimeout(function(){
+    //     //     console.log('a1',a1); // 0 1 2 3 4
+    //     // },1000)
+    // })(i)
+}
 
 // function aa(i) {
 //     console.log('aa',i);
@@ -45,6 +45,14 @@ for(var i=0;i<5;i++) {
     },0);
 }
 //console.log('f',i); //5
+
+function deal() {
+    console.log('deal',i);
+}
+
+for(var i=0;i<5;i++) {
+    // deal();
+}
 
 
 

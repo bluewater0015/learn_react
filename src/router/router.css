@@ -1,0 +1,28 @@
+
+.app {
+    overflow: auto;
+    display: flex;
+}
+.box {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #f7f7f7;
+}
+.silde {
+    width: 200px;
+    height: 100vh;
+    background: #ccc;
+    overflow: auto;
+}
+.silde li{
+    width:100%;
+    display: flex;
+}
+.navlink {
+    width:100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

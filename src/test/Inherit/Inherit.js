@@ -5,10 +5,12 @@ import React,{ Component } from 'react';
 function Person() {
     this.name = '天下';
 }
-Person.prototype.sayName = function(){
-    return this.name;
-}
+// Person.prototype.sayName = function(){
+//     return this.name;
+// }
 var person = new Person();
+//实例还有constructor属性？并且指向构造函数？？？
+console.log('person123---',person);
 // var person = new Person();
 // console.log('Person.prototype',Person.prototype);
 // console.log('person',person.__proto__);
@@ -94,10 +96,11 @@ console.log('fun',fun.prototype);
 
 //构造函数、原型、实例三者的关系
 function Person3() {
-    console.log('Person3-this',this);
     this.name = 'tianxia';
+    console.log('Person3-this',this);
 }
 var person3 = new Person3();
+
 Person3.prototype.sayName = function() {
     console.log('这里的this是什么呢：',this);
     console.log('this.name-Person3',this.name);
@@ -117,6 +120,33 @@ Son3.prototype.saySonName = function() {
     console.log('this.sonName',this);
 }
 son3.sayName(); //同时执行了父构造函数的方法
+
+//以后每句都加注释
+function Person4() {
+    this.name = 'tianxia';
+}
+
+Person4.prototype.sayName = function(){
+    console.log('Person4');
+    console.log(this.name);
+}
+
+function Son4() {
+    this.sonName = 'xiao';
+}
+
+//Son4.prototype 相当于构造函数Person4的实例,既然是实例，就会有构造函数中的属性和方法。
+Son4.prototype = new Person4();
+
+Son4.prototype.saySonName = function() {
+    console.log('this.sonName',this.sonName);
+}
+
+console.log('Son4.prototype',Son4.prototype); //
+var son4 = new Son4();
+//实例的constructor 指向什么呢？ 指向构造函数Person4，原本指向的是它本身构造函数
+console.log('son4.constructor',son4.constructor);
+
 
 class Inherit extends Component {
     render() {

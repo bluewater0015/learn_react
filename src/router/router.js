@@ -30,10 +30,12 @@ import SonFather from './../test/SonFather/SonFather';
 import MapArr from './../test/MapArr/MapArr';
 import Objects from './../test/Object/Object';
 import MergedArray from './../test/MergedArray/MergedArray';
+import Inherit from "../test/Inherit/Inherit";
+import Inherit1 from "../test/Inherit1/Inherit1";
+
 
 //ES6
 import Promises from './../ES6/Promises/Promises';
-import Inherit from "../test/Inherit/Inherit";
 
 
 const selectedStyle = {
@@ -70,6 +72,7 @@ class RouterMap extends Component {
                         <li><NavLink className='navlink' to='/promises' activeStyle={selectedStyle}>Promises</NavLink></li>
                         <li><NavLink className='navlink' to='/mergedArray' activeStyle={selectedStyle}>MergedArray</NavLink></li>
                         <li><NavLink className='navlink' to='/inherit' activeStyle={selectedStyle}>Inherit</NavLink></li>
+                        <li><NavLink className='navlink' to='/inherit1' activeStyle={selectedStyle}>Inherit1</NavLink></li>
                     </ul>
                     <div className='flex1 padding20'>
                         <Switch>
@@ -96,6 +99,7 @@ class RouterMap extends Component {
                             <Route path='/promises' component={Promises}/>
                             <Route path='/mergedArray' component={MergedArray}/>
                             <Route path='/inherit' component={Inherit}/>
+                            <Route path='/inherit1' component={Inherit1}/>
                             <Route component={ NoFound }/>
                         </Switch>
                     </div>

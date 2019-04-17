@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc0172a-4770-46c4-97bb-e8f3eb46ab85" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Inherit/Inherit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Inherit/Inherit.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,15 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Inherit.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/Inherit/Inherit.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Inherit1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-              <folding>
-                <marker date="1555436656507" expanded="true" signature="230:352" ph="..." />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,9 +99,10 @@
         <option value="$PROJECT_DIR$/src/test/MergedArray/MergedArray.js" />
         <option value="$PROJECT_DIR$/src/utils/utils.js" />
         <option value="$PROJECT_DIR$/src/test/Object/Object.js" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/router/router.css" />
         <option value="$PROJECT_DIR$/src/test/Inherit/Inherit.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" />
       </list>
     </option>
   </component>
@@ -122,10 +123,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="44" />
-    <option name="y" value="23" />
-    <option name="width" value="1396" />
-    <option name="height" value="823" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,18 +159,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Inherit" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,12 +206,13 @@
       <workItem from="1555053809028" duration="3991000" />
       <workItem from="1555073204456" duration="4170000" />
       <workItem from="1555170987347" duration="9304000" />
-      <workItem from="1555419485101" duration="7201000" />
+      <workItem from="1555419485101" duration="10402000" />
+      <workItem from="1555492508398" duration="2560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131378000" />
+    <option name="totallyTimeSpent" value="137139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -230,8 +223,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28969696" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -544,24 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router.js">
+    <entry file="file://$PROJECT_DIR$/src/test/Inherit/Inherit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#1356#1406#0" expanded="true" />
+            <marker date="1555495395759" expanded="true" signature="307:429" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Inherit/Inherit.js">
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="535">
+          <caret line="101" column="74" lean-forward="true" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
           <folding>
-            <marker date="1555436656507" expanded="true" signature="230:352" ph="..." />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>

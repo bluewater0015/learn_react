@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc0172a-4770-46c4-97bb-e8f3eb46ab85" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Inherit/Inherit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Inherit/Inherit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="Inherit1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,6 +65,9 @@
       <find>person3</find>
       <find>hasOwnproperty</find>
       <find>hasPrototypeProperty</find>
+      <find>Person15</find>
+      <find>authorPerson</find>
+      <find>createAnother</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,28 +208,29 @@
       <workItem from="1555073204456" duration="4170000" />
       <workItem from="1555170987347" duration="9304000" />
       <workItem from="1555419485101" duration="10402000" />
-      <workItem from="1555492508398" duration="2560000" />
+      <workItem from="1555492508398" duration="29099000" />
+      <workItem from="1555730969751" duration="7343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137139000" />
+    <option name="totallyTimeSpent" value="171021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25369978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25369978" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28969696" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -559,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="395">
+          <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
         </state>
       </provider>
     </entry>

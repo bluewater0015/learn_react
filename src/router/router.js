@@ -32,6 +32,7 @@ import Objects from './../test/Object/Object';
 import MergedArray from './../test/MergedArray/MergedArray';
 import Inherit from "../test/Inherit/Inherit";
 import Inherit1 from "../test/Inherit1/Inherit1";
+import CreateObj from '../test/CreateObj/CreateObj';
 
 
 //ES6
@@ -73,6 +74,7 @@ class RouterMap extends Component {
                         <li><NavLink className='navlink' to='/mergedArray' activeStyle={selectedStyle}>MergedArray</NavLink></li>
                         <li><NavLink className='navlink' to='/inherit' activeStyle={selectedStyle}>Inherit</NavLink></li>
                         <li><NavLink className='navlink' to='/inherit1' activeStyle={selectedStyle}>Inherit1</NavLink></li>
+                        <li><NavLink className='navlink' to='/createObj' activeStyle={selectedStyle}>CreateObj</NavLink></li>
                     </ul>
                     <div className='flex1 padding20'>
                         <Switch>
@@ -100,6 +102,7 @@ class RouterMap extends Component {
                             <Route path='/mergedArray' component={MergedArray}/>
                             <Route path='/inherit' component={Inherit}/>
                             <Route path='/inherit1' component={Inherit1}/>
+                            <Route path='/createObj' component={CreateObj}/>
                             <Route component={ NoFound }/>
                         </Switch>
                     </div>

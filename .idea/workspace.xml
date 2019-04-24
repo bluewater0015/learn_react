@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc0172a-4770-46c4-97bb-e8f3eb46ab85" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/CreateObj/CreateObj.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Inherit1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
+      <file leaf-file-name="CreateObj.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/CreateObj/CreateObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -102,8 +103,9 @@
         <option value="$PROJECT_DIR$/src/test/Object/Object.js" />
         <option value="$PROJECT_DIR$/src/router/router.css" />
         <option value="$PROJECT_DIR$/src/test/Inherit/Inherit.js" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/test/Inherit1/Inherit1.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/test/CreateObj/CreateObj.js" />
       </list>
     </option>
   </component>
@@ -135,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,10 +161,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateObj" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,12 +218,16 @@
       <workItem from="1555170987347" duration="9304000" />
       <workItem from="1555419485101" duration="10402000" />
       <workItem from="1555492508398" duration="29099000" />
-      <workItem from="1555730969751" duration="7343000" />
+      <workItem from="1555730969751" duration="7533000" />
+      <workItem from="1555809983346" duration="1396000" />
+      <workItem from="1555927590531" duration="392000" />
+      <workItem from="1555947751750" duration="785000" />
+      <workItem from="1556024294218" duration="160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171021000" />
+    <option name="totallyTimeSpent" value="173944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -247,13 +260,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ES6/Promises/Promises.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MergedArray/MergedArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -543,26 +549,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <marker date="1555495395759" expanded="true" signature="307:429" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1997">
+          <caret line="506" column="47" selection-start-line="506" selection-start-column="47" selection-end-line="506" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="101" column="74" lean-forward="true" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
+        <state relative-caret-position="669">
+          <caret line="104" column="73" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="73" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Inherit1/Inherit1.js">
+    <entry file="file://$PROJECT_DIR$/src/test/CreateObj/CreateObj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>

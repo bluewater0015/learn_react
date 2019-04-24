@@ -30,6 +30,26 @@ var res = addTo(num);
 console.log('res',res); //20
 console.log('num',num); //10
 
+function add(num1,num2) {
+    var sum = num1 + num2;
+    return sum;
+}
+var result2 = add(10,20);
+console.log('result2',result2);
+//console.log('sum',sum);
+
+function problem() {
+    var ObjectA = new Object();
+    var ObjectB = new Object();
+
+    ObjectA.name = ObjectB;
+    ObjectB.age = ObjectA;
+
+    console.log('ObjectA',ObjectA);
+    console.log('ObjectB',ObjectB);
+}
+problem();
+
 class CreateObj extends Component {
     render() {
         return (

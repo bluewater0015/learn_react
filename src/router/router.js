@@ -33,7 +33,7 @@ import MergedArray from './../test/MergedArray/MergedArray';
 import Inherit from "../test/Inherit/Inherit";
 import Inherit1 from "../test/Inherit1/Inherit1";
 import CreateObj from '../test/CreateObj/CreateObj';
-
+import ObjectOriented from '../test/ObjectOriented/ObjectOriented';
 
 //ES6
 import Promises from './../ES6/Promises/Promises';
@@ -75,6 +75,7 @@ class RouterMap extends Component {
                         <li><NavLink className='navlink' to='/inherit' activeStyle={selectedStyle}>Inherit</NavLink></li>
                         <li><NavLink className='navlink' to='/inherit1' activeStyle={selectedStyle}>Inherit1</NavLink></li>
                         <li><NavLink className='navlink' to='/createObj' activeStyle={selectedStyle}>CreateObj</NavLink></li>
+                        <li><NavLink className='navlink' to='/objectOriented' activeStyle={selectedStyle}>ObjectOriented</NavLink></li>
                     </ul>
                     <div className='flex1 padding20'>
                         <Switch>
@@ -103,6 +104,7 @@ class RouterMap extends Component {
                             <Route path='/inherit' component={Inherit}/>
                             <Route path='/inherit1' component={Inherit1}/>
                             <Route path='/createObj' component={CreateObj}/>
+                            <Route path='/objectOriented' component={ObjectOriented}/>
                             <Route component={ NoFound }/>
                         </Switch>
                     </div>

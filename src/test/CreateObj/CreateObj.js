@@ -50,6 +50,88 @@ function problem() {
 }
 problem();
 
+//ECMAScript中所有的参数都是按值传递的。
+function addObj(obj3) {
+    obj3.name = '天下';
+    obj3 = new Object();
+    obj3.name = '晓晓';
+    var obj6 = new Object();
+    return obj3;
+}
+var obj3 = new Object();
+var result3 = addObj(obj3);
+console.log('result3',result3);
+console.log('obj3',obj3); //天下
+//console.log('obj6',obj6); //因为obj6是局部对象，因此会是undefined
+
+
+function sum3(num3) {
+    //局部变量，在执行完之后摧毁。
+    num3 += num3;
+    return num3;
+}
+var num3 = 10;
+let result33 = sum3(num3);
+console.log('result33',result33); //20
+//按值传递，不会影响原本的值，为何？
+//全局变量，在这里只能打印出全局的变量num3。
+console.log('num3',num3); //10
+
+//
+var obj4 = new Object();
+obj4.name = '天下';
+var obj5 = obj4;
+obj5.name = '123';
+
+console.log('obj5',obj5);
+
+function arrFn() {
+    console.log('arguments123',arguments.length);
+}
+let arr = ['yellow','blue','green'];
+arrFn(arr,22,33);
+
+var color = 'blue';
+function changeColor() {
+    if(color == 'blue') {
+        color = 'red';
+    }else {
+        color = 'blue';
+    }
+}
+changeColor();
+console.log('Color is now:',color);
+
+//在局部作用域中定义的变量可以在局部环境和全局环境中互换使用。
+var color1 = 'red';
+function changeColor1() {
+    var another = 'yellow';
+    function swap() {
+        var swapNum = another;
+        another = color1;
+        color1 = swapNum;
+    }
+    swap();
+    //在这里可以访问color1和another变量
+    console.log('color1-1',color1);
+    console.log('another',another);
+}
+changeColor1();
+console.log('color1',color1); //red
+
+if(1) {
+    var color2 = 'blue';
+}
+console.log('color2',color2);
+
+for(var i=0;i<5;i++) {
+    console.log('里面也是',i); // 0 1 2 3 4
+}
+console.log('i-1',i); //5
+
+var array = new Array();
+console.log('array',array);
+
 class CreateObj extends Component {
     render() {
         return (
